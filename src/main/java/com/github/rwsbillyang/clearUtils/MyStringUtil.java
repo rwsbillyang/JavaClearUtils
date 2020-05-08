@@ -181,7 +181,7 @@ public class MyStringUtil {
 		if (str.length() <= length)
 			return str;
 
-		System.out.print("truncate length=" + length + ", origin str=" + str);
+		//System.out.print("truncate length=" + length + ", origin str=" + str);
 		return str.substring(0, length);
 	}
 
